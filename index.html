@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Assignment 3D Web Integration_EmmyAli</title>
+    <meta charset="utf-8">
+    <meta name="description" content="&lt;model-viewer&gt; template">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link type="text/css" href="style.css" rel="stylesheet"/>
+  </head>
+  <body>
+   
+    <div class="container">
+
+    <model-viewer src="all.glb" alt="Flowers" id="flowers" camera-controls skybox-image="pexels-photo-4516067.jpeg" camera-orbit="15deg 55deg 5m"></model-viewer>
+
+    <h1>Searching for Peace</h1>
+
+    <div class="desc">
+      Peace is up to us, how we grow and how we accept life throughout the years. 
+      Wherever our energy goes, then it flows... thats the circle of life. 
+      
+    </div>
+  </div>
+
+  <!-- <button id="orbitId" onclick="GetOrbit()">Get Orbit</button> -->
+  <button id="leftBtn" onclick="setOrbit('1.4rad 1.4rad 74m')">left</button>
+  <button id="rightBtn" onclick="setOrbit('-1rad 1.3rad 74m')">right</button>
+  <button id="bottomBtn" onclick="setOrbit('-1rad 2.7rad 80m')">bottom</button>
+  <script type="module" src="https://ajax.googleapis.com/ajax/libs/model-viewer/3.2.0/model-viewer.min.js"></script>
+    <script src="script.js"></script> 
+  </body>
+</html>

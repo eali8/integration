@@ -1,0 +1,1 @@
+<model-viewer src="all.glb" ar ar-modes="webxr scene-viewer quick-look" camera-controls poster="poster.webp" shadow-intensity="1" environment-image="PeissnitzBridge_16k.jpg" skybox-image="PeissnitzBridge_16k.jpg" exposure="1.2"> </model-viewer>
